@@ -10,6 +10,10 @@ export class ButtonComponent implements OnInit {
   buttonText: string[] = ["Acessar", "Felipe", "Testando"]
   @Input() label: string = ""
 
+  getAlert(){
+    alert("Olá")
+  }
+
   constructor() { }
 
   ngOnInit(): void {
